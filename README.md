@@ -55,21 +55,20 @@ Go grab the [hierarchy](https://github.com/blairfix/hierarchy) function --- a fu
 sourceCpp("hierarchy.cpp")
 
 # make hierarchy with 10,000 members, 
-# with span of control = 4
-hierarchy_vec = hierarchy(10000, 4)
+# with span of control = 5
+hierarchy_vec = hierarchy(10000, 5)
 
 # average hierarchical power by rank
 hierarchical_power(hierarchy_vec)
 
-            [,1]
-[1,]     1.00000
-[2,]     5.00160
-[3,]    21.03846
-[4,]    85.15385
-[5,]   344.55172
-[6,]  1428.42857
-[7,] 10000.00000
-
+             [,1]
+[1,]     1.000000
+[2,]     5.999375
+[3,]    30.996875
+[4,]   155.984375
+[5,]   768.923077
+[6,]  3333.000000
+[7,] 10000.000000
 ```
 
 
